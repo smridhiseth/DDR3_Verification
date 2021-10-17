@@ -1,6 +1,6 @@
 # DDR3_Verification
 
-The simulator used is VCS ( Verilog compiler suite. )
+The simulator used is synopsys VCS
 
 $ source /apps/set_license.sh              /// 1. Point to the license server. set up shell variable pointing to license server. 
 export VCS_HOME=/apps/synopsys/VCSMX_NEW  /// 2. Identify where VCS is located. set up environment variable VCS_HOME to identify the VCS simulator location.
