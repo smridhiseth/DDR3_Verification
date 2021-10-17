@@ -19,7 +19,7 @@ source /apps/set_license.sh
 export VCS_HOME=/apps/synopsys/VCSMX_NEW
 source ${VCS_HOME}/bin/environ.sh
 vcs -sverilog $@               ///   file to be compled is specified by $@.        
-if [ $? -ne 0 ]; then          /// # check for a bad compile. If the commands didn't run successfully, they return a non zero code. code is specified by $?
+if [ $? -ne 0 ]; then          /// # check for a bad acompile. If the commands didn't run successfully, they return a non zero code. code is specified by $?
     echo "= = = = = = = = = = = = ="
     echo "vcs compile didn''t work"
     exit 99
